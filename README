@@ -2,8 +2,6 @@ This repo contains the scripts to simulate the carbonic anhydrase II enzyme with
 
 3ks3-withHCO2.py is the main python script it uses 3ks3-withHCO2noGOL.xyz as a starting file and frozenatoms.dat contains the indices of the atoms to freeze in the simulation.
 
-3ks3-withHCO2-pulltogether.py can pulls the CO2 onto the zinc with a constant force to induce a reaction.
-
 There are five trajectory files demonstrating the proton hopping to His64 event (3ks3-withHnoGOLwCO2HHop.xyz), the proton hopping event onto Glu106 (3ks3-withHnoGOLwCO2HHopGlu106.xyz)  and the bicarbonate reaction event. (reaction_traj_27920.0fs_H4474-O4802_BB__O4802-C5499_BF) The bicarbonate reaction trajectory was captured with the the automatic reaction detection script. (3ks3-withHCO2noGOL-reactcapture.py)
 The timestep for these trajectories is 10 fs. 
 
